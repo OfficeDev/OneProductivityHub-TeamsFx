@@ -142,7 +142,7 @@ To make our tab look structured, let's create titles and  columns that will be a
         <div class="column"><h3>To-do tasks</h3></div>
         <div class="column"><h3>Files</h3></div>
     </div>
-</div>
+</div></div>
 
 <div class="row" className="content">
     <div class="column" className="mgt-col"></div>
