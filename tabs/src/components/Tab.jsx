@@ -29,13 +29,10 @@ class Tab extends React.Component {
       "User.Read",
       "User.ReadBasic.All",
       "Calendars.Read",
-      "Files.Read",
       "Files.Read.All",
       "Sites.Read.All",
-      "Tasks.Read",
       "Tasks.ReadWrite",
-      "People.Read",
-      "User.ReadBasic.All"
+      "People.Read"
     ];
 
     /*Initialize TeamsFX provider*/
