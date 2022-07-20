@@ -12,7 +12,12 @@
         "react": "^16.14.0",
         "react-dom": "^16.14.0",
         "react-router-dom": "^5.1.2",
-        "react-scripts": "^5.0.1"
+        "react-scripts": "^5.0.1",
+        "@microsoft/mgt": "^2.5.2",
+        "@microsoft/mgt-element": "^2.5.2",
+        "@microsoft/mgt-react": "^2.5.2",
+        "@microsoft/mgt-teamsfx-provider": "^2.5.2",
+        "react-csv": "^2.2.2"
     },
     "devDependencies": {
         "cross-env": "^7.0.3",

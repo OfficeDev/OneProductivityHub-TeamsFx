@@ -11,9 +11,10 @@ We are back to our project on Visual Studio Code.
 
 ### Add the Microsoft Graph Toolkit
 
-To use Microsoft Graph Toolkit and the Teams SDK via the loaders, open **Terminal** by clicking ``Ctrl + Shift + ` `` install the following packages in your app:
+To use Microsoft Graph Toolkit and the Teams SDK via the loaders, open **Terminal** by clicking ``Ctrl + Shift + ` `` install the following packages in your app using commands below:
 
 ```powershell
+cd tabs
 npm install @microsoft/mgt-element @microsoft/mgt @microsoft/mgt-react @microsoft/mgt-teamsfx-provider
 ```
 
@@ -175,13 +176,10 @@ In order to allow users to consent permissions for One Productivity Hub app, cre
               "User.Read",
               "User.ReadBasic.All",
               "Calendars.Read",
-              "Files.Read",
               "Files.Read.All",
               "Sites.Read.All",
-              "Tasks.Read",
-              "Tasks.ReadWrite",
-              "People.Read",
-              "User.ReadBasic.All"
+              "Tasks.ReadWrite"
+              "People.Read"
             ];
         
             /*Initialize TeamsFX Provider*/
